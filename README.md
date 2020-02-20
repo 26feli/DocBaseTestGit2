@@ -1,2 +1,2 @@
-# -DocBaseTestGit2
+# DocBaseTestGit2
 Documentos Taller Evaluacion Git

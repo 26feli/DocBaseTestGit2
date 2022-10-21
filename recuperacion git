@@ -1,0 +1,53 @@
+1 git config --global user.name "felipe cardenas"
+1 git config --global user.email "andres.tibocha@misena.edu.co"
+2   git config --global core.editor  "code --wait"
+2 git clone https://github.com/EjemplosADSI/DocBaseTestGit2
+3 mkdir taller_1057604853
+3 cd taller_1057604853
+3 git init
+4  cp ../DocBaseTestGit2/blob/master/BHLSL.pdf
+4  git add BHLSL.pdf
+5 git rm -f BHLSL
+5 cp .. /DocBaseTestGit2/blob/master/Linus.txt
+6 git add Linus.txt
+6 git commit -m "biografia de linus"
+6 cp linus.txt
+7 git add *.pdf
+8 git add copialinus.txt
+8 git rm -f copialinus.txt
+9 m/ BHLSL.pdf historialinus.pdf
+10 git status
+11 code linus.txt
+11 git commit -am "creacion de linus"
+12 code linus.txt
+12 git diff linus.txt
+13 git log 
+13 git log --oneline
+14 git add
+15 git commit linus.txt -m "biografia de linus"
+16 git show linus.txt
+17 git commit -m "version 1.0"
+18 git tag -a "v1.0"
+18 git tag 
+19 cp../DocBaseTestGit2/Linus_nvidia.jpg/.
+20 git commit -m "imagenes y biografia"
+20 del *.*
+20 git commit -m "se borro todo"
+21 git reset --hard head^
+22 git blane linus.txt
+23 git commit -m "pruebas"
+23 git checkout -b pruebas
+24 code linus.txt
+25 git checkout master
+25 git merge pruebas 
+26 git branch
+26 git branch -d pruebas
+27 git remote add origin https://github.com/26feli/evalucion.git
+27 git push --set-upstream origin master 
+28 code readme.md
+28 git add readme.md 
+28 git commit -m "readme.md"
+29 git init
+29 git status
+29 git commit -m "imagenes exclusivas.gitignore"
+30 git clean -n -d
